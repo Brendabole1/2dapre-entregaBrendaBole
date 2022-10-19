@@ -1,0 +1,338 @@
+.bg-body {
+    background-color: rgb(218, 207, 182);
+    margin-bottom: -4em;
+}
+
+.navbar {
+    background: rgb(207, 195, 164);
+    background: linear-gradient(90deg, rgba(207, 195, 164, 1) 5%, rgba(219, 208, 182, 1) 31%, rgba(107, 131, 102, 0.7083333333333333) 57%, rgba(5, 131, 79, 0.45) 91%);
+    filter: opacity(0.7);
+}
+
+.img {
+    width: 80px;
+    height: 80px;
+    color: rgb(11, 68, 11);
+}
+
+.img:hover {
+    filter: opacity(0.5);
+
+}
+
+.nav-link {
+    font-family: 'Alegreya SC', serif;
+    font-size: 1.1em;
+    color: rgb(11, 68, 11);
+
+}
+
+.nav-link:hover {
+    color: rgb(69, 65, 24);
+    text-shadow: 0 0 5px hwb(127 23% 57%);
+    text-transform: capitalize;
+}
+
+.navbar-toggler-icon:hover {
+    text-shadow: 0 0 5px hwb(127 23% 57%);
+}
+
+.jumbotron {
+    background-image: url(./img/whatsApp-Image2022-09-26\ at\ 12.51.57\ \(2\).jpeg);
+    background-size: cover;
+    background-position: bottom;
+    margin-top: 0.3em;
+    margin-bottom: 0em;
+    height: 40.5rem;
+}
+
+.jumbotron h1 {
+    font-family: 'Alegreya SC', serif;
+    font-size: 3em;
+    color: rgba(230, 225, 208, 0.97);
+    text-shadow: 0 0 4px rgba(159, 154, 119, 0.606);
+}
+
+.jumbotron p {
+    font-family: 'Alegreya SC', serif;
+    font-size: 3.2em;
+    margin-left: 1em;
+    color: rgba(230, 225, 208, 0.97);
+    text-shadow: 0 0 4px rgba(159, 154, 119, 0.606);
+}
+
+footer {
+    text-align: right;
+    margin-top: 0em;
+    margin-bottom: 0em;
+    padding-right: 1em;
+    font-size: 2em;
+    text-transform: capitalize;
+}
+
+.redes a i {
+    margin-top: 0em;
+    color: rgb(63, 100, 63);
+    letter-spacing: 5px;
+    margin-bottom: 0em;
+}
+
+.redes a i:hover {
+    font-size: 1em;
+    transform: scale(1.2);
+    transition: all 1s ease;
+    color: rgb(81, 135, 81);
+    letter-spacing: 5px;
+}
+.container-servicios{
+    display: flex;
+    margin-top: 1.5em;
+    margin-bottom: 20em;
+    margin-left: 5.5em;
+    
+}
+.card-title{
+font-size: 1.6em;
+color: rgba(24, 87, 43, 0.423);
+font-family:'Alegreya SC', serif;
+text-decoration: rgb(95, 158, 95);
+
+}
+.card-text{
+    font-size: 0.9em;
+    color:rgb(6, 119, 6);
+    font-family: 'Alegreya SC', serif;
+    font-style: oblique;
+}
+
+.nleft{
+    background-image: url(./img/foto-frente-con-efecto.jpeg);
+    background-size: cover;
+    background-position: center;
+    height: 450px;
+    margin-top: 5em;
+    margin-bottom: 7.05em;
+    
+ }
+
+.nleft:hover{
+filter: grayscale(1.5);
+}
+
+.nright h2{
+    font-size: 2.5em;
+    color:rgb(6, 119, 6);
+    font-family: 'Alegreya SC', serif;
+    margin-top: 2em;
+    margin-bottom: 0em;
+    padding: 1em;
+}
+.nright p{
+    font-size: 1em;
+    color:rgb(6, 119, 6);
+    font-family: 'Alegreya SC', serif;
+    margin-bottom: 5em;
+    padding-left: 3em;
+}
+.item{
+    height: 250px;
+    border: 2px solid rgb(19, 18, 16);
+
+}
+
+    
+.main-galeria {
+    background-color: rgba(188, 168, 144, 0.52);
+    width: 1448px;
+    height: 800px;
+}
+
+.galery-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-auto-rows: 150px;
+    padding: 5px;
+    grid-gap: 10px;
+}
+
+.galery__img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.galery--item:nth-child(2) {
+    grid-row-start: span 2;
+
+}
+
+.galery--item:nth-child(1) {
+    grid-row-start: span 2;
+
+}
+
+.galery--item:nth-child(6) {
+    grid-row-start: span 2;
+
+}
+
+.galery--item:nth-child(3) {
+    grid-row-start: span 2;
+
+}
+
+.galery--item:nth-child(4) {
+    grid-column-start: span 2;
+
+}
+
+.galery--item:nth-child(5) {
+    grid-row-start: span 3;
+
+}
+
+.galery--item:nth-child(7) {
+    grid-row-start: span 2;
+
+}
+
+.galery--item >img:hover {
+filter: contrast(2.2);
+}
+
+.mapa {
+
+    margin-right: 40px;
+
+
+}
+
+
+.cc-center {
+    color: rgb(12, 82, 12);
+    font-family: 'Alegreya SC', serif;
+    font-size: 26px;
+    text-align: center;
+
+
+}
+
+.cc-centertext {
+    color: rgb(12, 82, 12);
+    font-family: 'Alegreya SC', serif;
+    font-size: 30px;
+    text-align: center;
+
+}
+
+
+
+.formulario-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-auto-rows: 100px;
+   margin-left: 40px;
+    grid-gap: 20px;
+
+}
+
+.form input {
+    color: darkgray;
+    width: 300px;
+    display: inline;
+    margin-top: 15px;
+    background-color: rgba(214, 203, 188, 0.52);
+    border-style: none none solid none;
+    font-size: 15px;
+    font-family: 'Alegreya SC', serif;
+    margin-left: 40px;
+    outline: none;
+    text-align: center;
+
+}
+
+.button:hover {
+    background-color: rgb(89, 159, 122);
+    color: rgb(22, 66, 22);
+    border: none;
+
+}
+
+.button {
+    color: darkgray;
+    border: solid rgb(105, 127, 105);
+    font-size: 15px;
+    font-family: 'Alegreya SC', serif;
+    text-transform: uppercase;
+    padding: 1px 6px;
+    border-radius: 5px;
+    background: rgba(214, 203, 188, 0.52);
+
+}
+
+.form input:nth-child(2) {
+    grid-column-start: span 2;
+
+}
+
+.textarea {
+    color: darkgray;
+    width: 655px;
+    height: 380px;
+    display: inline;
+    margin-top: 15px;
+    background-color: rgba(214, 203, 188, 0.52);
+    border-style: none none solid none;
+    font-size: 15px;
+    font-family: 'Alegreya SC', serif;
+    padding: 10px;
+    outline: none;
+    text-align: center;
+    margin-left: 40px;
+    margin-bottom: 40px;
+}
+
+.form input:nth-child(1) {
+    grid-column-start: span 1;
+
+}
+
+.form input:nth-child(3) {
+    grid-column-start: span 2;
+
+}
+
+.form input:nth-child(2) {
+    grid-column-start: span 1;
+
+}
+
+.text {
+    font-size: 38px;
+    font-family: 'Alegreya SC', serif;
+    color: rgb(3, 63, 3);
+    text-align: center;
+}
+
+.center {
+    position: relative;
+    margin-left: 650px;
+    margin-top: 250px;
+
+
+
+}
+
+.datos {
+    display: grid;
+    grid-template-columns: repeat(6, 2fr);
+    grid-auto-rows: 100px;
+    padding: 5px;
+    grid-gap: 5px;
+    margin: 290px;
+
+}
+
+.datos1:nth-child(4) {
+    grid-column-start: 4;
+}

@@ -7,7 +7,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
         integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
-    <link href="https://fonts.googleapis.com/css2?family=Alegreya+SC&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Alegreya+SC&family=IM+Fell+Great+Primer+SC&family=Neucha&family=Shadows+Into+Light&display=swap"
+        rel="stylesheet">
     <link rel="stylesheet" href="../estilo.css">
     <title>The Barn Canning</title>
 </head>
@@ -52,10 +58,19 @@
             <section class="section-contacto">
                 </div>
                 <div class="cc-container">
-                    <h1 class="cc-center"><b>Escribinos,</b></h1>
+                    <h1 class="cc-center">Escribinos,</h1>
                     <p class="cc-centertext">Te estamos esperando</p>
+                    <div class="card">
+                        <div class="card-body">
+                            <p class="carta-texto">Estamos en Galeano 4812, Canning, Buenos Aires.</p>
+                            <p class="carta-texto">Nos podes visitar, coordinando una visita, de lunes a sabados, de
+                                10hs a 18hs.</p>
+                            <p class="carta-texto">E-mail: thebarncanning@gmail.com</p>
+                            <p class="carta-texto">Telefono:15-xxxx-xxxx/15-xxxx-xxxx.</p>
+                        </div>
+                    </div>
                     <div class="row">
-                        <form action="nright col-md-3" class="nleft1 col-md-6 " target="_blank">
+                        <form class="orden" action="nright col-md-3" class="nleft1 col-md-6 " target="_blank">
                             <div class="form ">
                                 <input class="formnombre" type="text" placeholder="Nombre" required name="Name">
                                 <input class="formemail" type="email" placeholder="Email" required name="Email">
@@ -66,9 +81,9 @@
                                 <input class="formfecha" type="date" placeholder="Fecha de evento" required
                                     name="Message">
                             </div>
-                            <div class="form nleft1 col-md-6">
-                                <textarea class="textarea" required placeholder="Dejanos tu mensaje"></textarea>
-                            </div>
+                            <div class="nright col-md-5">
+                            <textarea class="textarea" required placeholder="Dejanos tu mensaje"></textarea>
+                            </div>    
                             <div>
                                 <input class="button" type="button" value="ENVIAR">
                             </div>
@@ -76,7 +91,7 @@
                         <div class="map nright col-md-6 ">
                             <iframe
                                 src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d13089.933710457693!2d-58.5162281!3d-34.8943159!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xb751d57ef97437e7!2sThe%20BArn%20Canning!5e0!3m2!1ses-419!2sar!4v1664461866155!5m2!1ses-419!2sar"
-                                width=100% height="480px" style="border:0;" allowfullscreen="" loading="lazy"
+                                width=100% height="380px" style="border:0;" allowfullscreen="" loading="lazy"
                                 referrerpolicy="no-referrer-when-downgrade">
                             </iframe>
                         </div>
@@ -88,7 +103,7 @@
     </main>
     <!-----contacto fin------>
     <!------footer inicia----->
-    <footer>
+    <footer class="redes-contacto">
         <div class="redes">
             <a href="https://www.google.com/maps/place/The+BArn+Canning/@-34.8943159,-58.5162281,15z/data=!4m5!3m4!1s0x0:0xb751d57ef97437e7!8m2!3d-34.8943159!4d-58.5162281"
                 target="_blank"><i class="fas fa-map-marker-alt"></i></a>

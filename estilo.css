@@ -92,19 +92,19 @@ footer {
     margin-left: 5.5em;
 }
 
-.col-sm-8{
+.col-sm-8 {
     padding: 1em;
     display: center;
 }
 
 @media screen and (max-width: 600px) {
-    .row{
+    .row {
         display: flex;
         flex-direction: column;
         align-items: center;
     }
 }
-    
+
 .img-servicio {
     margin-top: 1em;
 }
@@ -121,6 +121,7 @@ footer {
     color: rgb(20, 117, 20);
 
 }
+
 .card-text {
     font-size: 0.9em;
     color: rgb(6, 119, 6);
@@ -137,13 +138,18 @@ footer {
 }
 
 .nleft {
+
+    -webkit-animation: tilt-in-top-2 0.6s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+    animation: tilt-in-top-2 0.6s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+
+
     background-image: url(./img/foto-frente-con-efecto.jpeg);
     background-size: cover;
     background-position: center;
     height: 450px;
     margin-top: 3em;
     margin-bottom: 10em;
-  
+
 }
 
 .nleft:hover {
@@ -171,32 +177,35 @@ footer {
 .item {
     height: 250px;
     border: 2px solid rgb(19, 18, 16);
-   
+
 }
 
-.videoeventos{
+.videoeventos {
     display: flex;
     justify-content: center;
     margin-top: 3em;
     margin-left: 5em;
-    margin-bottom:0.6em;
+    margin-bottom: 0.6em;
     filter: sepia(0.5);
 }
-.nreventos h2{
+
+.nreventos h2 {
     color: rgb(20, 117, 20);
     font-family: 'Alegreya SC', serif;
     font-size: 2.5em;
     text-align: center;
     margin-top: 1em;
-    
+
 }
-.nreventos ul li{
+
+.nreventos ul li {
     color: rgb(92, 142, 92);
     font-family: 'Neucha', cursive;
     font-size: 1.5em;
     text-align: center;
     list-style: none;
 }
+
 .main-galeria {
     background-color: rgba(188, 168, 144, 0.52);
     width: 1448px;
@@ -324,7 +333,7 @@ footer {
 
 
 .cc-center {
-    color:rgb(20, 117, 20);
+    color: rgb(20, 117, 20);
     font-family: 'Alegreya SC', serif;
     font-size: 2.5em;
     text-align: center;
@@ -339,18 +348,21 @@ footer {
     text-align: center;
     margin-bottom: -0.1em;
 }
-.card{
-    background-color:rgb(218, 207, 182);
+
+.card {
+    background-color: rgb(218, 207, 182);
     text-align: center;
     border: none;
 
 }
-.carta-texto{
+
+.carta-texto {
     margin-bottom: -0.2em;
     color: rgb(92, 142, 92);
     font-family: 'Neucha', cursive;
     font-size: 1.3em;
 }
+
 .orden {
     display: flex;
     flex-direction: column;
@@ -407,7 +419,7 @@ footer {
     padding: 10px;
     outline: none;
     text-align: center;
-   
+
 }
 
 
@@ -415,7 +427,8 @@ footer {
 .text {
     font-size: 38px;
     font-family: 'Alegreya SC', serif;
-    color: rgb(20, 117, 20);;
+    color: rgb(20, 117, 20);
+    ;
     text-align: center;
 }
 
@@ -440,4 +453,33 @@ footer {
 
 .redes-contacto {
     margin-top: 1.0em;
+}
+
+
+@-webkit-keyframes tilt-in-top-2 {
+    0% {
+        -webkit-transform: rotateY(-30deg) translateY(-300px) skewY(30deg);
+        transform: rotateY(-30deg) translateY(-300px) skewY(30deg);
+        opacity: 0;
+    }
+
+    100% {
+        -webkit-transform: rotateY(0deg) translateY(0) skewY(0deg);
+        transform: rotateY(0deg) translateY(0) skewY(0deg);
+        opacity: 1;
+    }
+}
+
+@keyframes tilt-in-top-2 {
+    0% {
+        -webkit-transform: rotateY(-30deg) translateY(-300px) skewY(30deg);
+        transform: rotateY(-30deg) translateY(-300px) skewY(30deg);
+        opacity: 0;
+    }
+
+    100% {
+        -webkit-transform: rotateY(0deg) translateY(0) skewY(0deg);
+        transform: rotateY(0deg) translateY(0) skewY(0deg);
+        opacity: 1;
+    }
 }

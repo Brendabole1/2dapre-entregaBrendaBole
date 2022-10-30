@@ -1,9 +1,7 @@
 .bg-body {
-    background-color: rgb(218, 207, 182);
+    background-color: $background;
     margin-bottom: -4em;
 }
-
-
 
 .jumbotron {
     background-image: url(./img/ovejasthebarn.jpeg);
@@ -36,12 +34,12 @@
     margin-left: 5.5em;
 }
 
-.col-sm-8{
+.col-sm-8 {
     padding: 1em;
     display: center;
 }
 
-    
+
 .img-servicio {
     margin-top: 1em;
 }
@@ -58,6 +56,7 @@
     color: $colortitulo;
 
 }
+
 .card-text {
     font-size: 0.9em;
     color: $colortitulo;
@@ -74,13 +73,17 @@
 }
 
 .nleft {
+
+    -webkit-animation: swing-in-right-fwd 0.5s cubic-bezier(0.175, 0.885, 0.320, 1.275) both;
+    animation: swing-in-right-fwd 0.5s cubic-bezier(0.175, 0.885, 0.320, 1.275) both;
+
     background-image: url(./img/foto-frente-con-efecto.jpeg);
     background-size: cover;
     background-position: center;
     height: 450px;
     margin-top: 3em;
     margin-bottom: 10em;
-  
+
 }
 
 .nleft:hover {
@@ -108,32 +111,35 @@
 .item {
     height: 250px;
     border: 2px solid rgb(19, 18, 16);
-   
+
 }
 
-.videoeventos{
+.videoeventos {
     display: flex;
     justify-content: center;
     margin-top: 3em;
     margin-left: 5em;
-    margin-bottom:0.6em;
+    margin-bottom: 0.6em;
     filter: sepia(0.5);
 }
-.nreventos h2{
+
+.nreventos h2 {
     color: rgb(20, 117, 20);
     font-family: 'Alegreya SC', serif;
     font-size: $titulosp;
     text-align: center;
     margin-top: 1em;
-    
+
 }
-.nreventos ul li{
+
+.nreventos ul li {
     color: rgb(92, 142, 92);
     font-family: 'Neucha', cursive;
     font-size: 1.5em;
     text-align: center;
     list-style: none;
 }
+
 .main-galeria {
     background-color: rgba(188, 168, 144, 0.52);
     width: 1448px;
@@ -150,7 +156,7 @@
 
 
 .cc-center {
-    color:rgb(20, 117, 20);
+    color: rgb(20, 117, 20);
     font-family: 'Alegreya SC', serif;
     font-size: $titulosp;
     text-align: center;
@@ -165,18 +171,21 @@
     text-align: center;
     margin-bottom: -0.1em;
 }
-.card{
-    background-color:rgb(218, 207, 182);
+
+.card {
+    background-color: $background;
     text-align: center;
     border: none;
 
 }
-.carta-texto{
+
+.carta-texto {
     margin-bottom: -0.2em;
     color: rgb(92, 142, 92);
     font-family: 'Neucha', cursive;
     font-size: 1.3em;
 }
+
 .orden {
     display: flex;
     flex-direction: column;
@@ -231,13 +240,14 @@
     padding: 10px;
     outline: none;
     text-align: center;
-   
+
 }
 
 .text {
     font-size: 38px;
     font-family: 'Alegreya SC', serif;
-    color: rgb(20, 117, 20);;
+    color: rgb(20, 117, 20);
+    ;
     text-align: center;
 }
 
@@ -249,4 +259,38 @@
 
 
 
+@-webkit-keyframes swing-in-right-fwd {
+    0% {
+        -webkit-transform: rotateY(-100deg);
+        transform: rotateY(-100deg);
+        -webkit-transform-origin: right;
+        transform-origin: right;
+        opacity: 0;
+    }
 
+    100% {
+        -webkit-transform: rotateY(0);
+        transform: rotateY(0);
+        -webkit-transform-origin: right;
+        transform-origin: right;
+        opacity: 1;
+    }
+}
+
+@keyframes swing-in-right-fwd {
+    0% {
+        -webkit-transform: rotateY(-100deg);
+        transform: rotateY(-100deg);
+        -webkit-transform-origin: right;
+        transform-origin: right;
+        opacity: 0;
+    }
+
+    100% {
+        -webkit-transform: rotateY(0);
+        transform: rotateY(0);
+        -webkit-transform-origin: right;
+        transform-origin: right;
+        opacity: 1;
+    }
+}

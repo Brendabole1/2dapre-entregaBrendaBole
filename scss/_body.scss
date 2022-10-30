@@ -1,0 +1,252 @@
+.bg-body {
+    background-color: rgb(218, 207, 182);
+    margin-bottom: -4em;
+}
+
+
+
+.jumbotron {
+    background-image: url(./img/ovejasthebarn.jpeg);
+    background-size: cover;
+    background-position: bottom;
+    margin-top: 0.3em;
+    margin-bottom: 0em;
+    height: 40.5rem;
+}
+
+.jumbotron h1 {
+    font-family: 'Alegreya SC', serif;
+    font-size: 3em;
+    color: rgba(230, 225, 208, 0.97);
+    text-shadow: 0 0 4px rgba(159, 154, 119, 0.606);
+}
+
+.jumbotron p {
+    font-family: 'Alegreya SC', serif;
+    font-size: 3.2em;
+    margin-left: 1em;
+    color: rgba(230, 225, 208, 0.97);
+    text-shadow: 0 0 4px rgba(159, 154, 119, 0.606);
+}
+
+.container-servicios {
+    display: flex;
+    margin-top: 1.5em;
+    margin-bottom: 20em;
+    margin-left: 5.5em;
+}
+
+.col-sm-8{
+    padding: 1em;
+    display: center;
+}
+
+    
+.img-servicio {
+    margin-top: 1em;
+}
+
+.text-servicio {
+    margin-top: 0.5em;
+}
+
+.card-title {
+    text-align: center;
+    font-size: $sidetitulo;
+    font-family: 'Alegreya SC', serif;
+    text-decoration: rgb(95, 158, 95);
+    color: $colortitulo;
+
+}
+.card-text {
+    font-size: 0.9em;
+    color: $colortitulo;
+    font-family: 'Alegreya SC', serif;
+    font-style: oblique;
+}
+
+.card-text1 {
+    margin-top: 2.5em;
+    font-size: 0.9em;
+    color: $colortitulo;
+    font-family: 'Alegreya SC', serif;
+    font-style: oblique;
+}
+
+.nleft {
+    background-image: url(./img/foto-frente-con-efecto.jpeg);
+    background-size: cover;
+    background-position: center;
+    height: 450px;
+    margin-top: 3em;
+    margin-bottom: 10em;
+  
+}
+
+.nleft:hover {
+    filter: grayscale(1.5);
+}
+
+.nright h2 {
+    font-size: $titulosp;
+    margin-top: 2em;
+    margin-bottom: -2em;
+    padding: 1em;
+    color: rgb(20, 117, 20);
+    font-family: 'Alegreya SC', serif;
+
+}
+
+.nright p {
+    font-size: 1.3em;
+    color: rgb(92, 142, 92);
+    font-family: 'Neucha', cursive;
+    margin: 3em;
+    text-align: justify;
+}
+
+.item {
+    height: 250px;
+    border: 2px solid rgb(19, 18, 16);
+   
+}
+
+.videoeventos{
+    display: flex;
+    justify-content: center;
+    margin-top: 3em;
+    margin-left: 5em;
+    margin-bottom:0.6em;
+    filter: sepia(0.5);
+}
+.nreventos h2{
+    color: rgb(20, 117, 20);
+    font-family: 'Alegreya SC', serif;
+    font-size: $titulosp;
+    text-align: center;
+    margin-top: 1em;
+    
+}
+.nreventos ul li{
+    color: rgb(92, 142, 92);
+    font-family: 'Neucha', cursive;
+    font-size: 1.5em;
+    text-align: center;
+    list-style: none;
+}
+.main-galeria {
+    background-color: rgba(188, 168, 144, 0.52);
+    width: 1448px;
+    height: 800px;
+}
+
+
+.mapa {
+
+    margin-right: 40px;
+
+
+}
+
+
+.cc-center {
+    color:rgb(20, 117, 20);
+    font-family: 'Alegreya SC', serif;
+    font-size: $titulosp;
+    text-align: center;
+
+
+}
+
+.cc-centertext {
+    color: rgb(20, 117, 20);
+    font-family: 'Alegreya SC', serif;
+    font-size: 1.5em;
+    text-align: center;
+    margin-bottom: -0.1em;
+}
+.card{
+    background-color:rgb(218, 207, 182);
+    text-align: center;
+    border: none;
+
+}
+.carta-texto{
+    margin-bottom: -0.2em;
+    color: rgb(92, 142, 92);
+    font-family: 'Neucha', cursive;
+    font-size: 1.3em;
+}
+.orden {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 2.5em;
+}
+
+
+.form input {
+    color: darkgray;
+    width: 300px;
+    display: inline;
+    margin-top: 15px;
+    background-color: rgba(214, 203, 188, 0.52);
+    border-style: none none solid none;
+    font-size: 15px;
+    font-family: 'Alegreya SC', serif;
+
+    outline: none;
+    text-align: center;
+
+}
+
+.button:hover {
+    background-color: rgb(89, 159, 122);
+    color: rgb(22, 66, 22);
+    border: none;
+
+}
+
+.button {
+    color: darkgray;
+    border: solid rgb(105, 127, 105);
+    font-size: 15px;
+    font-family: 'Alegreya SC', serif;
+    text-transform: uppercase;
+    padding: 1px 6px;
+    border-radius: 5px;
+    background: rgba(214, 203, 188, 0.52);
+    margin: 0.8em;
+
+}
+
+.textarea {
+    color: darkgray;
+    display: inline;
+    margin-top: 15px;
+    background-color: rgba(214, 203, 188, 0.52);
+    border-style: none none solid none;
+    font-size: 15px;
+    font-family: 'Alegreya SC', serif;
+    padding: 10px;
+    outline: none;
+    text-align: center;
+   
+}
+
+.text {
+    font-size: 38px;
+    font-family: 'Alegreya SC', serif;
+    color: rgb(20, 117, 20);;
+    text-align: center;
+}
+
+.center {
+    position: relative;
+    margin-left: 650px;
+    margin-top: 15.625em;
+}
+
+
+
+

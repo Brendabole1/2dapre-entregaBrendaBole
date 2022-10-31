@@ -8,18 +8,7 @@ footer {
 }
 
 .redes a i {
-    margin-top: 0em;
-    color: rgb(63, 100, 63);
-    letter-spacing: 5px;
-    margin-bottom: 0em;
-}
-
-.redes a i:hover {
-    font-size: 1em;
-    transform: scale(1.2);
-    transition: all 1s ease;
-    color: rgb(81, 135, 81);
-    letter-spacing: 5px;
+   @extend %iconos;
 }
 .redes-contacto {
     margin-top: 1.0em;
